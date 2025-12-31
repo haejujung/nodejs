@@ -26,7 +26,6 @@ async function main() {
         console.log('갱신된 문서 :', updatedDocuments);
 
         await client.close();
-
     } catch (err){
         console.error(err);
     }
